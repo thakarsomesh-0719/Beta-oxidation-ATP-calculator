@@ -1,6 +1,6 @@
 # ATP calculator from beta oxidation
 # Calculates ATP yield from beta oxidation given carbon chain length and unsaturation
-# My name
+# Somesh Thakar
 # April 2026
 # Assume that 1 FADH2 converts into 2 ATP after goint through the electron transport chain
 
