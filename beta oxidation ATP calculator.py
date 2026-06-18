@@ -29,7 +29,7 @@ Please enter 0 if no unsaturation present = ''')
             print(f"The number of ATP genarated by a fatty acid chain having {org_carbon} carbons is {int(total_ATP)} ATP ")
             print("Thank You")
             break
-        elif org_carbon % 2 != 0 and unsat == "1":
+        elif org_carbon % 2 != 0 and unsat == "1": # For odd chain unsaturated fatty acids
             carbon = org_carbon - 3
             no_unsat = int(input("Please enter the number of unsaturated bonds "))
             total_ATP =  (12 * ((org_carbon/2) - 3)) +  (5 * ((org_carbon/2) - 3)) + 6 - (2 * no_unsat)
